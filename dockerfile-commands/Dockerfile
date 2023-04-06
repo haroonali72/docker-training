@@ -3,7 +3,7 @@ FROM golang:1.18
 # This command create a directory, in our case app directory will be created
 WORKDIR /app
 # This command copies the code to the directory, created with WORKDIR
-COPY .. .
+COPY . .
 # This command is used to run any shell command, and this is run while creating the image.
 RUN go mod download
 # This will set the environment variable for the container
