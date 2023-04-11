@@ -14,3 +14,5 @@ I have added descriptions with the commands in dockerfile.
 2. I logged in into my account using `docker login` command.
 3. I tagged my image using `docker tag <image> <dockerHubUser>/<image>` (if I don't do this then I will face an error smth like this `requested access to the resource is denied`.
 4. Then I pushed my image using `docker push <dockerHubUser>/<image>`.
+
+1st commit before rebase
